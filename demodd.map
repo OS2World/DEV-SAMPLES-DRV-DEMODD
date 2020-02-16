@@ -1,0 +1,108 @@
+
+ DEMODD
+
+ Start         Length     Name                   Class
+ 0001:00000000 000000000H _TEXT                  CODE 32-bit
+ 0001:00000000 000000064H CINIT_TEXT             CODE 32-bit
+ 0002:00000000 000000000H CSWAP_TEXT             CODE 32-bit
+ 0002:00000000 0000003C8H CODE32                 CODE 32-bit
+ 0003:00000000 000000028H CINIT_DATA             DATA 32-bit
+ 0004:00000000 000000124H CSWAP_DATA             DATA 32-bit
+ 0005:00000000 000000000H _DATA                  DATA 32-bit
+ 0005:00000000 000000000H DATA32                 DATA 32-bit
+ 0005:00000000 000000024H MVDMINSTDATA           DATA 32-bit
+ 0005:00000030 000000000H MVDMINSTDATA           MIDATA 32-bit
+ 0005:00000030 000000000H SWAPINSTDATA           SIDATA 32-bit
+ 0005:00000030 000000000H CONST32                CONST 32-bit
+
+ Origin   Group
+ 0005:0   DGROUP
+ 0000:0   FLAT
+
+  Address         Publics by Name
+
+ 0002:00000338       CalcLinearAdress
+ 0005:00000000       CurrVDM
+ 0002:00000000       DEMODOSCREATED
+ 0002:00000378       DEMODOSTERMINATED
+ 0002:00000058       DEMOINTHANDLER
+ 0005:00000008       fOpened
+ 0005:00000004       hDigio
+ 0002:000003AC       OS2REQFUNC
+ 0005:00000010       pBuffer
+ 0005:0000000C       pParameter
+ 0004:00000118       szDigioPDD
+ 0003:00000020       szDriverName
+ 0004:000000CE       szFunc1
+ 0004:000000DC       szFunc2
+ 0004:000000EB       szFunc3
+ 0004:000000FA       szFunc4
+ 0004:00000109       szFunc5
+ 0003:00000000       szInitMessage
+ 0004:00000000       szMessage1
+ 0004:00000029       szMessage2
+ 0004:0000004B       szMessage3
+ 0004:00000068       szMessage4
+ 0004:00000089       szMessage5
+ 0004:000000B5       szReqFALSE
+ 0004:0000009D       szReqTRUE
+ 0004:00000120       ulActionTaken
+ 0005:00000018       ulBytesPassedBuffer
+ 0005:00000014       ulBytesPassedParam
+ 0005:00000020       ulLenMaxBuffer
+ 0005:0000001C       ulLenMaxParam
+ 0001:00000000       VDDINIT
+ 0000:00000000  Imp  VDHCLOSE             (MVDM.52)
+ 0000:00000000  Imp  VDHDEVIOCTL          (MVDM.67)
+ 0000:00000000  Imp  VDHGETERROR          (MVDM.62)
+ 0000:00000000  Imp  VDHINSTALLINTHOOK    (MVDM.17)
+ 0000:00000000  Imp  VDHINSTALLUSERHOOK   (MVDM.3)
+ 0000:00000000  Imp  VDHOPEN              (MVDM.51)
+ 0000:00000000  Imp  VDHPOPINT            (MVDM.56)
+ 0000:00000000  Imp  VDHREGISTERVDD       (MVDM.24)
+ 0000:00000000  Imp  _printf              (MVDM.76)
+
+  Address         Publics by Value
+
+ 0000:00000000  Imp  VDHCLOSE             (MVDM.52)
+ 0000:00000000  Imp  VDHINSTALLINTHOOK    (MVDM.17)
+ 0000:00000000  Imp  _printf              (MVDM.76)
+ 0000:00000000  Imp  VDHOPEN              (MVDM.51)
+ 0000:00000000  Imp  VDHINSTALLUSERHOOK   (MVDM.3)
+ 0000:00000000  Imp  VDHGETERROR          (MVDM.62)
+ 0000:00000000  Imp  VDHREGISTERVDD       (MVDM.24)
+ 0000:00000000  Imp  VDHDEVIOCTL          (MVDM.67)
+ 0000:00000000  Imp  VDHPOPINT            (MVDM.56)
+ 0001:00000000       VDDINIT
+ 0002:00000000       DEMODOSCREATED
+ 0002:00000058       DEMOINTHANDLER
+ 0002:00000338       CalcLinearAdress
+ 0002:00000378       DEMODOSTERMINATED
+ 0002:000003AC       OS2REQFUNC
+ 0003:00000000       szInitMessage
+ 0003:00000020       szDriverName
+ 0004:00000000       szMessage1
+ 0004:00000029       szMessage2
+ 0004:0000004B       szMessage3
+ 0004:00000068       szMessage4
+ 0004:00000089       szMessage5
+ 0004:0000009D       szReqTRUE
+ 0004:000000B5       szReqFALSE
+ 0004:000000CE       szFunc1
+ 0004:000000DC       szFunc2
+ 0004:000000EB       szFunc3
+ 0004:000000FA       szFunc4
+ 0004:00000109       szFunc5
+ 0004:00000118       szDigioPDD
+ 0004:00000120       ulActionTaken
+ 0005:00000000       CurrVDM
+ 0005:00000004       hDigio
+ 0005:00000008       fOpened
+ 0005:0000000C       pParameter
+ 0005:00000010       pBuffer
+ 0005:00000014       ulBytesPassedParam
+ 0005:00000018       ulBytesPassedBuffer
+ 0005:0000001C       ulLenMaxParam
+ 0005:00000020       ulLenMaxBuffer
+
+Program entry point at 0001:0000
